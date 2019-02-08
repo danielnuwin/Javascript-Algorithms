@@ -1,4 +1,4 @@
-export const JSON = {
+const JSON = {
     "name": "Biology HL",
     "id": 19,
     "children": [
@@ -45,3 +45,4 @@ export const JSON = {
 };
 
 
+export default JSON;

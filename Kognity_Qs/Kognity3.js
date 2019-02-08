@@ -1,3 +1,4 @@
+import JSON from './json'
 const JSON = {
     "name": "Biology HL",
     "id": 19,

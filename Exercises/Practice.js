@@ -716,7 +716,7 @@ y.a().b().a().a();
 //Arrow Functions
 let el = ["hello", "this", "is", "daniel"];
 let newEl = el.map(element => { return element.length })
-console.log(newEl);
+console.log("count ele:",newEl);
 /*
 Arrrow Function is like this:
 var a = function(b){
