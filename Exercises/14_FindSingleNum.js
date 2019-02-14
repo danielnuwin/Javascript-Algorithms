@@ -22,6 +22,7 @@ function findSingle(array) {
             hm[array[i]] = hm[array[i]] + 1;
         }
     }
+    //Not needed
     let values = Object.values(hm);
     let index = values.filter(val => val === 1);
     console.log(index);

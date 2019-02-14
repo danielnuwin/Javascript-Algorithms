@@ -9,6 +9,7 @@ let char = "r";
  * Qs: Are there multiple chars with same value
  */
 
+ //This Method will remove Both Rs
  function removeChar(string, char){
     let result = "";
     for(let i = 0; i < string.length; i++){

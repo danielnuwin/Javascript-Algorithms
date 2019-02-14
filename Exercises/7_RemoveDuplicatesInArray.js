@@ -23,3 +23,18 @@ let array = [1, 1, 2, 3, 4, 4, 5, 6, 7];
     
  }
  remDupHM(array);
+
+ //Using Splice
+ function rmDupSplice(array){
+    for (let index = 0; index < array.length; index++) {
+        const next = array[index +1];
+        
+        if(array[index] === next){
+            array.splice(index, 1);
+        }
+    }
+    return array;
+ }
+
+ console.log(rmDupSplice(array));
+ 

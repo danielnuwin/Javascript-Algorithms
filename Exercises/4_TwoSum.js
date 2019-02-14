@@ -9,6 +9,7 @@ const target = 34;
  *
  */
 
+ //No Duplicates
 function twoSum(array, target) {
     let result = [];
     let hm = {};
@@ -28,3 +29,20 @@ function twoSum(array, target) {
     
 }
 twoSum(array, target);
+
+//Has Duplicates
+function twoSumIndex(array, target){
+    let result = [];
+    
+    for(let i = 0; i < array.length; i++){
+
+        let comp = target - array[i];
+
+        if(array.indexOf(comp) !== -1 ){            
+            result.push([array[i], array[array.indexOf(comp)]]);
+        }
+    }
+    return result;
+}
+
+console.log(twoSumIndex(array, target));

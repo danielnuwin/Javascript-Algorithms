@@ -12,6 +12,8 @@ let array = [
  * 9,6,3
  * Create 3 new arrays
  * -first row the first of every index starting from back
+ * 
+ * 
  */
 
  function rotate(array){
@@ -42,5 +44,5 @@ let array = [
 
  }
 
- console.log("rotate: ", rotate(array));
+//  console.log("rotate: ", rotate(array));
  
