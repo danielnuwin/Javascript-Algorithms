@@ -20,3 +20,4 @@ function makeAnagram(a, b) {
     count = s1Length + s2Length;
 
     return count;
+}
