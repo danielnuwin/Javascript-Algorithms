@@ -21,3 +21,8 @@ function makeAnagram(a, b) {
 
     return count;
 }
+
+
+console.log(makeAnagram("cde","abc")); //Return 4
+console.log(makeAnagram("showman","woman")); //Return 2
+console.log(makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke")); //Return 30
