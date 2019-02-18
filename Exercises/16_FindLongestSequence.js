@@ -49,3 +49,4 @@ function findLongestSeq(array) {
 }
 console.log("longest Sequnce: ", findLongestSeq(array));
 
+
