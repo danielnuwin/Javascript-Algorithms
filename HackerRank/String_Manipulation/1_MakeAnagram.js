@@ -5,7 +5,11 @@ function makeAnagram(a, b) {
     //find similar chars in both strings
     for (let i = 0; i < a.length; i++) {
         if (b.indexOf(a[i]) !== -1) {
-            commonChars = commonChars + a.charAt(i);
+
+            //Case for Duplicate Chars --> Don't add them
+            if (commonChars.indexOf(a[i]) === -1 || commonChars === "") {
+                commonChars = commonChars + a.charAt(i);
+            }
         }
     }
 
@@ -23,6 +27,27 @@ function makeAnagram(a, b) {
 }
 
 
-console.log(makeAnagram("cde","abc")); //Return 4
-console.log(makeAnagram("showman","woman")); //Return 2
-console.log(makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke")); //Return 30
+console.log(makeAnagram("cde", "abc")); //Return 4
+console.log(makeAnagram("baddc", "dcbad")); //Return 2
+console.log(makeAnagram("showman", "woman")); //Return 2
+console.log(makeAnagram("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke")); //Return 30
+
+//Online solution
+function makeAnagramCORRECT(a, b) {
+    let vector = []
+
+    for(let element of a) {
+      let index = element.charCodeAt(0) - 97
+      vector[index] = vector[index] || 0
+      vector[index] += 1;
+    }
+    for(let element of b){
+      let index = element.charCodeAt(0) - 97
+      vector[index] = vector[index] || 0
+      vector[index] -=1
+    }
+    return vector.reduce((a,b) =>
+      Math.abs(a) + Math.abs(b))
+}
+
+console.log(makeAnagramCORRECT("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
