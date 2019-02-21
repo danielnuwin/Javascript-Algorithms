@@ -29,8 +29,29 @@ function rotate(array, n){
 }
 rotate(array, n);
 
-function rotateIP(array, n){
+/**
+ * 
+ */
 
+ let s = "abracadabra";
+ let pat = "abr";
 
+ //Return the indices of the start of the pattern if exists
 
-}
+ function findPat(s, pat){
+    //Variables
+    let result = [];
+    //Loop by substring of 3 chars and if it matches the pattern, then add index to array. 
+
+    for(let i = 0; i < s.length; i++){
+        let cur = s.substring(i, i + 3);
+        if(cur !== undefined && cur === pat){
+            result.push(i);
+        }
+    }
+
+    return result;
+ }
+
+ console.log(findPat(s, pat));
+ 
