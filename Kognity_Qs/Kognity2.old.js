@@ -11,7 +11,9 @@ Where “children” contains an array of other objects with the same structure.
 We then need to be able to navigate to any section, but also be able to move from a section to the previous or next section (even if it is in a different topic/subtopic).
 Note that we are imagining that we are on the client side: data has already been loaded and will not be lost between next() and previous() calls.
 
-Create a next() function and a previous() function that return the next or previous (respectively) section id. This should cross subtopics/topics so that a user can go from beginning to end of the book. The next and previous function can take whatever arguments make sense, but there needs to be a clear way to advance through the entire book.
+Create a next() function and a previous() function that return the next or previous (respectively) section id. 
+This should cross subtopics/topics so that a user can go from beginning to end of the book. 
+The next and previous function can take whatever arguments make sense, but there needs to be a clear way to advance through the entire book.
 
 Example (using the sample json below):
 next(...) -> 14

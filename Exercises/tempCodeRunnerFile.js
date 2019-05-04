@@ -1,1 +1,6 @@
-        return "None";
+epeat("A") 
+// first_repeat("ABC") 
+// first_repeat("AA") 
+// first_repeat("ABA") 
+// first_repeat("ABBA") 
+// first_repeat("BACDEFGHIJBQWERUAAAA")
