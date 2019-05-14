@@ -4,21 +4,20 @@ class LinkedList {
     }
 
     append(val) {
-        if (this.tail === null) {
+        //if head/tail == null
+        if (!this.tail) {
             this.tail = this.head = new Node(val);
         }
         else {
+            // >= 1 node
             let oldTail = this.tail;
             this.tail = new Node(val);
             oldTail.next = this.tail;
             this.tail.prev = oldTail;
-
         }
-        // console.log(this);
     }
-
     prepend(val) {
-        if (this.head === null) {
+        if (!this.head) {
             this.head = this.tail = new Node(val);
         }
         else {
@@ -27,30 +26,28 @@ class LinkedList {
             oldHead.prev = this.head;
             this.head.next = oldHead;
         }
-        // console.log(this);
     }
-
     deleteHead() {
-        let removedHead = this.head;
-        if (this.head === null) {
+        let returnHead = this.head.value;
+        //Head == null
+        if (!this.head) {
             return null;
         }
         else {
-            //Only one node in list
             if (this.head === this.tail) {
                 this.head = this.tail = null;
             }
             else {
                 this.head = this.head.next;
-                this.head.prev = null
+                this.head.prev = null;
             }
         }
-        return removedHead.value;
+        return returnHead;
     }
-
     deleteTail() {
-        let deleteTail = this.tail;
-        if (this.tail === null) {
+        let returnTail = this.tail.value;
+
+        if (!this.tail) {
             return null;
         }
         else {
@@ -62,26 +59,26 @@ class LinkedList {
                 this.tail.next = null;
             }
         }
-        return deleteTail.value;
+        return returnTail;
     }
-
     search(val) {
         let currentNode = this.head;
         while (currentNode) {
             if (currentNode.value === val) {
-                return currentNode
+                return currentNode;
             }
             currentNode = currentNode.next;
         }
         return null;
     }
-}
 
+
+}
 class Node {
-    constructor(value, next, prev) {
-        this.value = value;
-        this.next = next || null;
+    constructor(val, prev, next) {
+        this.value = val;
         this.prev = prev || null;
+        this.next = next || next;
     }
 }
 
@@ -89,10 +86,7 @@ const list = new LinkedList();
 list.append(1);
 list.append(2);
 list.prepend(0);
-// console.log(list.deleteHead());
-// console.log(list.deleteHead());
-// console.log(list.deleteHead());
-// console.log(list.deleteTail());
-// console.log(list.deleteTail());
-// console.log(list.deleteTail());
-console.log("search:",list.search(2));
+// list.deleteHead()
+list.deleteTail();
+console.log(list.search(1));
+console.log(list);

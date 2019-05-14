@@ -82,3 +82,36 @@ next();
 previous();
 previous();
 previous();
+
+function goDown(obj, search) {
+    let type = typeof obj;
+    if (type === 'object')
+        for (let i in obj) {
+            //Will just do a check if the key exists
+            if (obj[i][`${search}`] !== undefined) {
+                //On End of the tree
+                if (obj[i][`${search}`].filter(item => item.children.length === 0).length > 0) {
+                    obj[i][`${search}`].map(item => console.log(item));
+                }
+            }
+            //otherwise keep going down
+            goDown(obj[i], search);
+        }
+}
+goDown(JSON, "children");
+
+function getName(obj, search) {
+    let type = typeof obj;
+    if (type === 'object') {
+        for (let i in obj) {
+            //Will just do a check if the key exists
+            if (obj[i][`${search}`] !== undefined) {
+                console.log(obj[i][`${search}`]);
+            }
+            //otherwise keep going down
+            getName(obj[i], search);
+        }
+    }
+}
+
+getName(JSON, "name");

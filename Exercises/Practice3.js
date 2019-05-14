@@ -59,7 +59,7 @@ first_repeat("BACDEFGHIJBQWERUAAAA") -> "B"
 function first_repeat(string) {
 
     const hm = {};
-    if(string.length <= 1 || string === ""){
+    if (string.length <= 1 || string === "") {
         console.log("1None");
         return;
     }
@@ -82,14 +82,67 @@ function first_repeat(string) {
 
     console.log("3None");
     return;
-    
+
 }
 
 first_repeat("");
-first_repeat("A") 
-first_repeat("ABC") 
-first_repeat("AA") 
-first_repeat("ABA") 
-first_repeat("ABBA") 
+first_repeat("A")
+first_repeat("ABC")
+first_repeat("AA")
+first_repeat("ABA")
+first_repeat("ABBA")
 first_repeat("BACDEFGHIJBQWERUAAAA")
 
+//Merget two arrays
+
+const a = [
+
+    { id: "Nidhi", company: "SIS" },
+
+    { id: "Aman", company: "Apple" }
+
+];
+
+const b = [
+
+    { id: "Nidhi", position: "UI" }, { id: "Ram", position: "FE" }
+
+];
+
+console.log(a.concat(b));
+console.log([...a, ...b]);
+
+//Rotate Array in Place and new array
+let array = [1, 2, 3, 4];
+let k = 2;
+
+function rotate(array, k) {
+    let result = [];
+    for (let i = 0; i < array.length; i++) {
+        //move k to the right, check if the last index 3 + 2 = 5 - 4 = 1
+        let move = i + k;
+
+        if (move >= array.length) {
+            let index = move - array.length;
+            result[index] = array[i];
+        }
+        else {
+            result[move] = array[i];
+        }
+    }
+    console.log(result)
+}
+rotate(array, k);
+
+function rotateIP(array, k) {
+    //Rotate in place meaning you have to swap the values
+    for (let i = 1; i <= k; i++) {
+        for (let j = 0; j < array.length; j++) {
+            let temp = array[j];
+            array[j] = array[j+1];
+            array[j+1] = temp;
+        }
+    }
+    console.log("hello");
+}
+rotateIP(array, k);

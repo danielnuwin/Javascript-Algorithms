@@ -1,0 +1,1745 @@
+{  
+    "Response":{  
+       "@Score":"514",
+       "NetConnectResponse":{  
+          "CompletionCode":"0000",
+          "TransactionId":"1337463636",
+          "Products":{  
+             "CreditProfile":{  
+                "Header":{  
+                   "ReportDate":"05242015",
+                   "ReportTime":"175038",
+                   "Preamble":"TCA1",
+                   "ARFVersion":"07",
+                   "ReferenceNumber":"110695"
+                },
+                "RiskModel":[  
+                   {  
+                      "ModelIndicator":{  
+                         "@code":"AG",
+                         "#text":"Experian/Fair, Isaac Auto Model V8"
+                      },
+                      "Score":"0494",
+                      "ScoreFactorCodeOne":"38",
+                      "ScoreFactorCodeTwo":"19",
+                      "ScoreFactorCodeThree":"18",
+                      "ScoreFactorCodeFour":"16",
+                      "Evaluation":{  
+                         "@code":"P",
+                         "#text":"Positive number"
+                      }
+                   },
+                   {  
+                      "ModelIndicator":{  
+                         "@code":"V ",
+                         "#text":"Experian/Fair, Isaac Auto Model V2"
+                      },
+                      "Score":"0514",
+                      "ScoreFactorCodeOne":"38",
+                      "ScoreFactorCodeTwo":"16",
+                      "ScoreFactorCodeThree":"18",
+                      "ScoreFactorCodeFour":"02",
+                      "Evaluation":{  
+                         "@code":"P",
+                         "#text":"Positive number"
+                      }
+                   },
+                   {  
+                      "ModelIndicator":{  
+                         "@code":"2 ",
+                         "#text":"Fraud Shield Score"
+                      },
+                      "Score":"0433",
+                      "ScoreFactorCodeOne":"C8",
+                      "ScoreFactorCodeTwo":"I9",
+                      "ScoreFactorCodeThree":"F5",
+                      "ScoreFactorCodeFour":"I4",
+                      "Evaluation":{  
+                         "@code":"P",
+                         "#text":"Positive number"
+                      }
+                   }
+                ],
+                "SSN":[  
+                   {  
+                      "VariationIndicator":{  
+                         "@code":" ",
+                         "#text":"Same"
+                      },
+                      "Number":"625146025"
+                   },
+                   {  
+                      "VariationIndicator":{  
+                         "@code":"*",
+                         "#text":"Different"
+                      },
+                      "Number":"625146058"
+                   }
+                ],
+                "ConsumerIdentity":[  
+                   {  
+                      "Name":{  
+                         "Surname":"FLORES",
+                         "First":"RODOLFO"
+                      },
+                      "YOB":"1968"
+                   },
+                   {  
+                      "Name":{  
+                         "Type":{  
+                            "@code":"N",
+                            "#text":"Nickname"
+                         },
+                         "Surname":"RODOLFO",
+                         "First":"FLORES"
+                      },
+                      "YOB":null
+                   },
+                   {  
+                      "Name":{  
+                         "Type":{  
+                            "@code":"N",
+                            "#text":"Nickname"
+                         },
+                         "Surname":"FLORES",
+                         "First":"RUDY"
+                      },
+                      "YOB":null
+                   }
+                ],
+                "AddressInformation":[  
+                   {  
+                      "FirstReportedDate":"10071998",
+                      "LastUpdatedDate":"09152014",
+                      "Origination":{  
+                         "@code":"1",
+                         "#text":"Reported via A/R Tape, but different from inquiry"
+                      },
+                      "TimesReported":"03",
+                      "LastReportingSubcode":"3390020",
+                      "DwellingType":{  
+                         "@code":"A",
+                         "#text":"Apartment complex"
+                      },
+                      "HomeOwnership":{  
+                         "@code":" ",
+                         "#text":"Unknown"
+                      },
+                      "StreetPrefix":"14634",
+                      "StreetName":"PIONEER",
+                      "StreetSuffix":"BLVD",
+                      "UnitType":"APT",
+                      "UnitID":"36",
+                      "City":"NORWALK",
+                      "State":"CA",
+                      "Zip":"906505836",
+                      "CensusGeoCode":null
+                   },
+                   {  
+                      "FirstReportedDate":"01232013",
+                      "LastUpdatedDate":"05022013",
+                      "Origination":{  
+                         "@code":"1",
+                         "#text":"Reported via A/R Tape, but different from inquiry"
+                      },
+                      "TimesReported":"01",
+                      "LastReportingSubcode":null,
+                      "DwellingType":{  
+                         "@code":"A",
+                         "#text":"Apartment complex"
+                      },
+                      "HomeOwnership":{  
+                         "@code":" ",
+                         "#text":"Unknown"
+                      },
+                      "StreetPrefix":"11523",
+                      "StreetName":"OBERT",
+                      "StreetSuffix":"AVE",
+                      "UnitType":"APT",
+                      "UnitID":"7",
+                      "City":"WHITTIER",
+                      "State":"CA",
+                      "Zip":"906042813",
+                      "CensusGeoCode":null
+                   },
+                   {  
+                      "FirstReportedDate":"12092009",
+                      "LastUpdatedDate":"12092009",
+                      "Origination":{  
+                         "@code":"1",
+                         "#text":"Reported via A/R Tape, but different from inquiry"
+                      },
+                      "TimesReported":"01",
+                      "LastReportingSubcode":null,
+                      "DwellingType":{  
+                         "@code":"A",
+                         "#text":"Apartment complex"
+                      },
+                      "HomeOwnership":{  
+                         "@code":" ",
+                         "#text":"Unknown"
+                      },
+                      "StreetPrefix":"14515",
+                      "StreetName":"LEFFINGWELL",
+                      "StreetSuffix":"RD",
+                      "UnitType":"APT",
+                      "UnitID":"1",
+                      "City":"WHITTIER",
+                      "State":"CA",
+                      "Zip":"906042842",
+                      "CensusGeoCode":null
+                   }
+                ],
+                "EmploymentInformation":[  
+                   {  
+                      "FirstReportedDate":"07172012",
+                      "LastUpdatedDate":"07172012",
+                      "Origination":{  
+                         "@code":"8",
+                         "#text":"Update"
+                      },
+                      "Name":"GREMALDO'S TRUCKING",
+                      "AddressFirstLine":null,
+                      "AddressSecondLine":null,
+                      "AddressExtraLine":null,
+                      "Zip":null
+                   },
+                   {  
+                      "FirstReportedDate":"05242015",
+                      "LastUpdatedDate":"05242015",
+                      "Origination":{  
+                         "@code":"2",
+                         "#text":"Inquiry"
+                      },
+                      "Name":"GREENALDOS TRUCKING",
+                      "AddressFirstLine":null,
+                      "AddressSecondLine":null,
+                      "AddressExtraLine":null,
+                      "Zip":null
+                   }
+                ],
+                "TradeLine":[  
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"04142005",
+                      "StatusDate":"10012010",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "TermsDuration":{  
+                         "@code":"060"
+                      },
+                      "ECOA":{  
+                         "@code":"2",
+                         "#text":"Joint Account"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00026151"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":"C",
+                               "#text":"Charge off amount"
+                            },
+                            "Value":"00004638"
+                         }
+                      ],
+                      "BalanceDate":"08312011",
+                      "BalanceAmount":"00004638",
+                      "Status":{  
+                         "@code":"97",
+                         "#text":"Unpaid balance reported as a loss by credit grantor"
+                      },
+                      "AmountPastDue":"00004638",
+                      "OpenOrClosed":{  
+                         "@code":"C",
+                         "#text":"Closed"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"30000118956411000",
+                      "MonthsHistory":"77",
+                      "DelinquenciesOver30Days":"05",
+                      "DelinquenciesOver60Days":"00",
+                      "DelinquenciesOver90Days":"04",
+                      "DerogCounter":"16",
+                      "PaymentProfile":"99999999999-8888865431C1C",
+                      "MonthlyPaymentAmount":null,
+                      "MonthlyPaymentType":{  
+                         "@code":" ",
+                         "#text":"Estimated"
+                      },
+                      "LastPaymentDate":"04272010",
+                      "Subcode":"0507170",
+                      "KOB":{  
+                         "@code":"FP",
+                         "#text":"Personal Loan Companies"
+                      },
+                      "SubscriberDisplayName":"SANTANDER CONSUMER USA",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"08012011",
+                      "SecondDelinquencyDate":"07012011",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"10012010",
+                         "AccountCondition":{  
+                            "@code":"97",
+                            "#text":"Charge off"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"96",
+                            "#text":"Reposessed"
+                         },
+                         "AccountType":{  
+                            "@code":"00",
+                            "#text":"AUT\tAuto Loan"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"06022012",
+                      "StatusDate":"04012013",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "TermsDuration":{  
+                         "@code":"037"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00007746"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":"C",
+                               "#text":"Charge off amount"
+                            },
+                            "Value":"00006686"
+                         }
+                      ],
+                      "BalanceDate":"04302015",
+                      "BalanceAmount":"00010055",
+                      "Status":{  
+                         "@code":"97",
+                         "#text":"Unpaid balance reported as a loss by credit grantor"
+                      },
+                      "AmountPastDue":"00010055",
+                      "OpenOrClosed":{  
+                         "@code":"C",
+                         "#text":"Closed"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"104232",
+                      "MonthsHistory":"35",
+                      "DelinquenciesOver30Days":"01",
+                      "DelinquenciesOver60Days":"01",
+                      "DelinquenciesOver90Days":"01",
+                      "DerogCounter":"24",
+                      "PaymentProfile":"99999999999999999999999-9",
+                      "MonthlyPaymentAmount":null,
+                      "MonthlyPaymentType":{  
+                         "@code":" ",
+                         "#text":"Estimated"
+                      },
+                      "LastPaymentDate":"01232013",
+                      "Subcode":"8969830",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"FOREMAN FINANCIAL",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"04012015",
+                      "SecondDelinquencyDate":"03012015",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"04012013",
+                         "AccountCondition":{  
+                            "@code":"97",
+                            "#text":"Charge off"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"80",
+                            "#text":"90 days past due"
+                         },
+                         "AccountType":{  
+                            "@code":"00",
+                            "#text":"AUT\tAuto Loan"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"11212013",
+                      "StatusDate":"08012014",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"48",
+                         "#text":"Collection Department/Agency/Attorney"
+                      },
+                      "TermsDuration":{  
+                         "@code":"001",
+                         "#text":"One Month"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00000033"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":" ",
+                               "#text":"Unknown"
+                            },
+                            "Value":null
+                         }
+                      ],
+                      "BalanceDate":"01112015",
+                      "BalanceAmount":"00000033",
+                      "Status":{  
+                         "@code":"93",
+                         "#text":"Account seriously past due date/account assigned to attorney, collection agency, or credit grantor's internal collection department"
+                      },
+                      "AmountPastDue":"00000033",
+                      "OpenOrClosed":{  
+                         "@code":"C",
+                         "#text":"Closed"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"83042869",
+                      "MonthsHistory":"06",
+                      "DelinquenciesOver30Days":"00",
+                      "DelinquenciesOver60Days":"00",
+                      "DelinquenciesOver90Days":"00",
+                      "DerogCounter":"02",
+                      "PaymentProfile":"9----9",
+                      "Subcode":"1984486",
+                      "KOB":{  
+                         "@code":"YZ",
+                         "#text":"Collections -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"ENHANCED RECOVERY CO L",
+                      "OriginalCreditorName":"TMOBILE",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"01012015",
+                      "SecondDelinquencyDate":"08012014",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"08012014",
+                         "AccountCondition":{  
+                            "@code":"  ",
+                            "#text":"No condition"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"93",
+                            "#text":"Assigned to collection"
+                         },
+                         "AccountType":{  
+                            "@code":"48",
+                            "#text":"Collection Department/Agency/Attorney"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"01292013",
+                      "StatusDate":"05012013",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"06",
+                         "#text":"Installment Sales Contract"
+                      },
+                      "TermsDuration":{  
+                         "@code":"012"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00000990"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":"C",
+                               "#text":"Charge off amount"
+                            },
+                            "Value":"00000980"
+                         }
+                      ],
+                      "BalanceDate":"12312013",
+                      "BalanceAmount":"00000980",
+                      "Status":{  
+                         "@code":"98",
+                         "#text":"Credit grantor cannot locate consumer"
+                      },
+                      "AmountPastDue":null,
+                      "OpenOrClosed":{  
+                         "@code":"O",
+                         "#text":"Open"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"56976611",
+                      "MonthsHistory":"11",
+                      "DelinquenciesOver30Days":"00",
+                      "DelinquenciesOver60Days":"00",
+                      "DelinquenciesOver90Days":"07",
+                      "DerogCounter":"01",
+                      "PaymentProfile":"96665433B-C",
+                      "MonthlyPaymentAmount":null,
+                      "MonthlyPaymentType":{  
+                         "@code":" ",
+                         "#text":"Estimated"
+                      },
+                      "LastPaymentDate":"12312013",
+                      "Subcode":"3390020",
+                      "KOB":{  
+                         "@code":"HF",
+                         "#text":"Home Furnishings Stores"
+                      },
+                      "SubscriberDisplayName":"MICHAELS SUPERSTORE",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"12012013",
+                      "SecondDelinquencyDate":"11012013",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"05012013",
+                         "AccountCondition":{  
+                            "@code":"98"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"97",
+                            "#text":"Charge off"
+                         },
+                         "AccountType":{  
+                            "@code":"06",
+                            "#text":"Installment Sales Contract"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"06212013",
+                      "StatusDate":"09012013",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"48",
+                         "#text":"Collection Department/Agency/Attorney"
+                      },
+                      "TermsDuration":{  
+                         "@code":"UNK",
+                         "#text":"Unknown"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00005115"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":" ",
+                               "#text":"Unknown"
+                            },
+                            "Value":null
+                         }
+                      ],
+                      "BalanceDate":"05012015",
+                      "BalanceAmount":"00005115",
+                      "Status":{  
+                         "@code":"98",
+                         "#text":"Credit grantor cannot locate consumer"
+                      },
+                      "AmountPastDue":"00005115",
+                      "OpenOrClosed":{  
+                         "@code":"O",
+                         "#text":"Open"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"PCEXFOR4500525441",
+                      "MonthsHistory":"22",
+                      "DelinquenciesOver30Days":"00",
+                      "DelinquenciesOver60Days":"00",
+                      "DelinquenciesOver90Days":"00",
+                      "DerogCounter":"22",
+                      "PaymentProfile":"9999999999999999999999",
+                      "Subcode":"1985508",
+                      "KOB":{  
+                         "@code":"YC",
+                         "#text":"Other Collection Agencies"
+                      },
+                      "SubscriberDisplayName":"PACIFIC CREDIT EXCHANG",
+                      "OriginalCreditorName":"FOREMAN FINANCIAL",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"05012015",
+                      "SecondDelinquencyDate":"04012015",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"09012013",
+                         "AccountCondition":{  
+                            "@code":"98"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"93",
+                            "#text":"Assigned to collection"
+                         },
+                         "AccountType":{  
+                            "@code":"48",
+                            "#text":"Collection Department/Agency/Attorney"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"N",
+                         "#text":"Closer review is required"
+                      },
+                      "OpenDate":"02282013",
+                      "StatusDate":"06012013",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"06",
+                         "#text":"Installment Sales Contract"
+                      },
+                      "TermsDuration":{  
+                         "@code":"012"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00000773"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":" ",
+                               "#text":"Unknown"
+                            },
+                            "Value":null
+                         }
+                      ],
+                      "BalanceDate":"06302013",
+                      "BalanceAmount":null,
+                      "Status":{  
+                         "@code":"56",
+                         "#text":"Paid account/was delinquent 60 days past due date"
+                      },
+                      "AmountPastDue":null,
+                      "OpenOrClosed":{  
+                         "@code":"C",
+                         "#text":"Closed"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"438713811",
+                      "MonthsHistory":"05",
+                      "DelinquenciesOver30Days":"01",
+                      "DelinquenciesOver60Days":"01",
+                      "DelinquenciesOver90Days":"00",
+                      "DerogCounter":"00",
+                      "PaymentProfile":"B21CC",
+                      "MonthlyPaymentAmount":null,
+                      "MonthlyPaymentType":{  
+                         "@code":" ",
+                         "#text":"Estimated"
+                      },
+                      "LastPaymentDate":"06042013",
+                      "Subcode":"3391951",
+                      "KOB":{  
+                         "@code":"ZR",
+                         "#text":"Retail, Not Elsewhere Classified"
+                      },
+                      "SubscriberDisplayName":"CASA LEADERS INC",
+                      "MaxPayment":{  
+                         "@code":" "
+                      },
+                      "FirstDelinquencyDate":"05012013",
+                      "SecondDelinquencyDate":"04012013",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"06012013",
+                         "AccountCondition":{  
+                            "@code":"A2",
+                            "#text":"Paid"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"78",
+                            "#text":"60 days past due"
+                         },
+                         "AccountType":{  
+                            "@code":"06",
+                            "#text":"Installment Sales Contract"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   },
+                   {  
+                      "SpecialComment":{  
+                         "@code":"  "
+                      },
+                      "Evaluation":{  
+                         "@code":"P",
+                         "#text":"No additional review is required"
+                      },
+                      "OpenDate":"06272012",
+                      "StatusDate":"09012014",
+                      "MaxDelinquencyDate":null,
+                      "AccountType":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "TermsDuration":{  
+                         "@code":"030"
+                      },
+                      "ECOA":{  
+                         "@code":"1",
+                         "#text":"Individual"
+                      },
+                      "Amount":[  
+                         {  
+                            "Qualifier":{  
+                               "@code":"O",
+                               "#text":"Original"
+                            },
+                            "Value":"00007801"
+                         },
+                         {  
+                            "Qualifier":{  
+                               "@code":" ",
+                               "#text":"Unknown"
+                            },
+                            "Value":null
+                         }
+                      ],
+                      "BalanceDate":"09302014",
+                      "BalanceAmount":null,
+                      "Status":{  
+                         "@code":"12",
+                         "#text":"Account/paid satisfactorily"
+                      },
+                      "AmountPastDue":null,
+                      "OpenOrClosed":{  
+                         "@code":"C",
+                         "#text":"Closed"
+                      },
+                      "RevolvingOrInstallment":{  
+                         "@code":"I",
+                         "#text":"Installment"
+                      },
+                      "ConsumerComment":null,
+                      "AccountNumber":"10054543",
+                      "MonthsHistory":"27",
+                      "DelinquenciesOver30Days":"00",
+                      "DelinquenciesOver60Days":"00",
+                      "DelinquenciesOver90Days":"00",
+                      "DerogCounter":"00",
+                      "PaymentProfile":"BCCCCCCCCCCCCCCC-CCCCCCCC",
+                      "MonthlyPaymentAmount":null,
+                      "MonthlyPaymentType":{  
+                         "@code":" ",
+                         "#text":"Estimated"
+                      },
+                      "LastPaymentDate":"09122014",
+                      "Subcode":"1024723",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"TIME FINANCE",
+                      "EnhancedPaymentData":{  
+                         "InitialPaymentLevelDate":"09012014",
+                         "AccountCondition":{  
+                            "@code":"A2",
+                            "#text":"Paid"
+                         },
+                         "PaymentStatus":{  
+                            "@code":"11",
+                            "#text":"Current"
+                         },
+                         "AccountType":{  
+                            "@code":"00",
+                            "#text":"AUT\tAuto Loan"
+                         },
+                         "SpecialComment":{  
+                            "@code":"  "
+                         }
+                      }
+                   }
+                ],
+                "Inquiry":[  
+                   {  
+                      "Date":"05242015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1254780",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CAPITAL ONE AUTO FIN"
+                   },
+                   {  
+                      "Date":"05242015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1640042",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"FIRST INVST SVC/FIRST"
+                   },
+                   {  
+                      "Date":"05242015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1917109",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"700 CREDIT/GARDEN GROV"
+                   },
+                   {  
+                      "Date":"05242015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1917258",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CARFINANCE.COM"
+                   },
+                   {  
+                      "Date":"04092015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2372829",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/MIRANDA AUTO SA"
+                   },
+                   {  
+                      "Date":"04072015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"8963575",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/MEDINA CARS LTD"
+                   },
+                   {  
+                      "Date":"04042015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3903978",
+                      "KOB":{  
+                         "@code":"ZA",
+                         "#text":"Auto Reseller"
+                      },
+                      "SubscriberDisplayName":"CREDCO"
+                   },
+                   {  
+                      "Date":"03082015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1968656",
+                      "KOB":{  
+                         "@code":"HF",
+                         "#text":"Home Furnishings Stores"
+                      },
+                      "SubscriberDisplayName":"CASA LINDA FURNITURE"
+                   },
+                   {  
+                      "Date":"02182015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1926637",
+                      "KOB":{  
+                         "@code":"DC",
+                         "#text":"Complete Department Stores"
+                      },
+                      "SubscriberDisplayName":"KOHLS/CAPONE"
+                   },
+                   {  
+                      "Date":"02142015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1254780",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CAPITAL ONE AUTO FIN"
+                   },
+                   {  
+                      "Date":"01252015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3903978",
+                      "KOB":{  
+                         "@code":"ZA",
+                         "#text":"Auto Reseller"
+                      },
+                      "SubscriberDisplayName":"CREDCO"
+                   },
+                   {  
+                      "Date":"01252015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2334750",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"3232647039S CARS"
+                   },
+                   {  
+                      "Date":"01252015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1620920",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/WESTLAKE FINANC"
+                   },
+                   {  
+                      "Date":"01232015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3513060",
+                      "KOB":{  
+                         "@code":"FZ",
+                         "#text":"Finance Companies -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"CREDIT SOLUTIONS CORP"
+                   },
+                   {  
+                      "Date":"01212015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1963364",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/GOLD ACCEPTANCE"
+                   },
+                   {  
+                      "Date":"01202015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3606780",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"UNIVERSAL FINANCIAL CO"
+                   },
+                   {  
+                      "Date":"01192015",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1934509",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/MONTEBELLO AUTO"
+                   },
+                   {  
+                      "Date":"12242014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1254780",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CAPITAL ONE AUTO FIN"
+                   },
+                   {  
+                      "Date":"12242014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2341900",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"LOANME INC"
+                   },
+                   {  
+                      "Date":"12242014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1912477",
+                      "KOB":{  
+                         "@code":"FZ",
+                         "#text":"Finance Companies -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"SANTANDER CONSUMER USA"
+                   },
+                   {  
+                      "Date":"12242014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2255500",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"AMPS/PUENTE HILLS NISS"
+                   },
+                   {  
+                      "Date":"12202014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1770320",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"700 CREDIT/SURF CITY N"
+                   },
+                   {  
+                      "Date":"11292014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1681316",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"R&R/DOWNEY NISSAN"
+                   },
+                   {  
+                      "Date":"11282014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1926707",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"VEROS CREDIT"
+                   },
+                   {  
+                      "Date":"11282014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1638340",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"TOP FINANCE COMPANY IN"
+                   },
+                   {  
+                      "Date":"11282014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1917258",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CARFINANCE.COM"
+                   },
+                   {  
+                      "Date":"11272014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1620920",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/WESTLAKE FINANC"
+                   },
+                   {  
+                      "Date":"11272014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1624220",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"CONSUMER PORTFOLIO SVC"
+                   },
+                   {  
+                      "Date":"11272014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2250972",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"AMPS/BUENA PARK NISSAN"
+                   },
+                   {  
+                      "Date":"11272014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1912477",
+                      "KOB":{  
+                         "@code":"FZ",
+                         "#text":"Finance Companies -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"SANTANDER CONSUMER USA"
+                   },
+                   {  
+                      "Date":"10292014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3359552",
+                      "KOB":{  
+                         "@code":"HF",
+                         "#text":"Home Furnishings Stores"
+                      },
+                      "SubscriberDisplayName":"CASA LINDA FURN INC"
+                   },
+                   {  
+                      "Date":"10232014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1912477",
+                      "KOB":{  
+                         "@code":"FZ",
+                         "#text":"Finance Companies -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"SANTANDER CONSUMER USA"
+                   },
+                   {  
+                      "Date":"10232014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1620920",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"NOWCOM/WESTLAKE FINANC"
+                   },
+                   {  
+                      "Date":"10222014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"00",
+                         "#text":"Auto Loan"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"2250972",
+                      "KOB":{  
+                         "@code":"AU",
+                         "#text":"Automobile Dealers, Used"
+                      },
+                      "SubscriberDisplayName":"AMPS/BUENA PARK NISSAN"
+                   },
+                   {  
+                      "Date":"10012014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1646220",
+                      "KOB":{  
+                         "@code":"FA",
+                         "#text":"Automobile Financing Company"
+                      },
+                      "SubscriberDisplayName":"800 LOANMART"
+                   },
+                   {  
+                      "Date":"09152014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3558576",
+                      "KOB":{  
+                         "@code":"FP",
+                         "#text":"Personal Loan Companies"
+                      },
+                      "SubscriberDisplayName":"ROGERS ACCEPTANCE CORP"
+                   },
+                   {  
+                      "Date":"07312014",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1103317",
+                      "KOB":{  
+                         "@code":"BC",
+                         "#text":"Bank Credit Cards"
+                      },
+                      "SubscriberDisplayName":"CAP ONE NA"
+                   },
+                   {  
+                      "Date":"12122013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3558576",
+                      "KOB":{  
+                         "@code":"FP",
+                         "#text":"Personal Loan Companies"
+                      },
+                      "SubscriberDisplayName":"ROGERS ACCEPTANCE CORP"
+                   },
+                   {  
+                      "Date":"08122013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3950486",
+                      "KOB":{  
+                         "@code":"RZ",
+                         "#text":"Real Estate/Public Accommodations -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"L ABRI MANAGEMENT"
+                   },
+                   {  
+                      "Date":"08022013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1943855",
+                      "KOB":{  
+                         "@code":"UW",
+                         "#text":"Water Companies"
+                      },
+                      "SubscriberDisplayName":"VERIZON WIRELESS"
+                   },
+                   {  
+                      "Date":"07032013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3513060",
+                      "KOB":{  
+                         "@code":"FZ",
+                         "#text":"Finance Companies -- Non-Specific"
+                      },
+                      "SubscriberDisplayName":"CREDIT SOLUTIONS CORP"
+                   },
+                   {  
+                      "Date":"06122013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"1943855",
+                      "KOB":{  
+                         "@code":"UW",
+                         "#text":"Water Companies"
+                      },
+                      "SubscriberDisplayName":"VERIZON WIRELESS"
+                   },
+                   {  
+                      "Date":"05102013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3558576",
+                      "KOB":{  
+                         "@code":"FP",
+                         "#text":"Personal Loan Companies"
+                      },
+                      "SubscriberDisplayName":"ROGERS ACCEPTANCE CORP"
+                   },
+                   {  
+                      "Date":"05052013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3390020",
+                      "KOB":{  
+                         "@code":"HF",
+                         "#text":"Home Furnishings Stores"
+                      },
+                      "SubscriberDisplayName":"MICHAELS SUPERSTORE"
+                   },
+                   {  
+                      "Date":"05022013",
+                      "Amount":" UNKNOWN",
+                      "Type":{  
+                         "@code":"31",
+                         "#text":"Unknown - Credit Extension, Review, Or Collection"
+                      },
+                      "Terms":{  
+                         "@code":"UNK"
+                      },
+                      "Subcode":"3391951",
+                      "KOB":{  
+                         "@code":"ZR",
+                         "#text":"Retail, Not Elsewhere Classified"
+                      },
+                      "SubscriberDisplayName":"CASA LEADERS INC"
+                   }
+                ],
+                "InformationalMessage":[  
+                   {  
+                      "MessageNumber":"92",
+                      "MessageText":"0092 REQUESTED PRODUCT OPTION NOT ALLOWED"
+                   },
+                   {  
+                      "MessageNumber":"06",
+                      "MessageText":"0006 ** SUBSCRIBER CAN NOT LOCATE (SCNL) ON THE ABOVE REPORT **"
+                   },
+                   {  
+                      "MessageNumber":"57",
+                      "MessageText":"0335 AG08TOO MANY INQUIRIES LAST 12 MONTHS"
+                   },
+                   {  
+                      "MessageNumber":"57",
+                      "MessageText":"0335 V 08TOO MANY INQUIRIES LAST 12 MONTHS"
+                   },
+                   {  
+                      "MessageNumber":"57",
+                      "MessageText":"0335 2 B4NUMBER OF RECENT INSTALLMENT CREDIT CHECKS"
+                   }
+                ],
+                "FraudServices":{  
+                   "Type":{  
+                      "@code":"99",
+                      "#text":"Subsegment data only"
+                   },
+                   "SIC":{  
+                      "@code":"        "
+                   },
+                   "Text":null,
+                   "SocialDate":"02012015",
+                   "SocialCount":"0009",
+                   "SocialErrorCode":{  
+                      "@code":"0",
+                      "#text":"No error conditions occur"
+                   },
+                   "AddressDate":"02012015",
+                   "AddressCount":"0065",
+                   "AddressErrorCode":{  
+                      "@code":"0",
+                      "#text":"No error conditions occur"
+                   },
+                   "SSNFirstPossibleIssuanceYear":"1987",
+                   "SSNLastPossibleIssuanceYear":"1989",
+                   "Indicator":[  
+                      "01",
+                      "03",
+                      "09",
+                      null
+                   ]
+                },
+                "ProfileSummary":{  
+                   "DisputedAccountsExcluded":"000",
+                   "PublicRecordsCount":"000",
+                   "InstallmentBalance":"00020821",
+                   "RealEstateBalance":"N/A     ",
+                   "RevolvingBalance":"N/A     ",
+                   "PastDueAmount":"00019841",
+                   "MonthlyPayment":"00000000",
+                   "MonthlyPaymentPartialFlag":{  
+                      "@code":"*",
+                      "#text":"Not all tradelines included"
+                   },
+                   "RealEstatePayment":"N/A     ",
+                   "RealEstatePaymentPartialFlag":{  
+                      "@code":" ",
+                      "#text":"All tradelines included"
+                   },
+                   "RevolvingAvailablePercent":"N/A",
+                   "RevolvingAvailablePartialFlag":{  
+                      "@code":" ",
+                      "#text":"All tradelines included"
+                   },
+                   "TotalInquiries":"045",
+                   "InquiriesDuringLast6Months":"030",
+                   "TotalTradeItems":"007",
+                   "PaidAccounts":"002",
+                   "SatisfactoryAccounts":"001",
+                   "NowDelinquentDerog":"005",
+                   "WasDelinquentDerog":"001",
+                   "OldestTradeOpenDate":"04142005",
+                   "DelinquenciesOver30Days":"07",
+                   "DelinquenciesOver60Days":"02",
+                   "DelinquenciesOver90Days":"12",
+                   "DerogCounter":"65"
+                }
+             }
+          }
+       }
+    }
+ }

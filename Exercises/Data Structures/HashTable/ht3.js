@@ -5,6 +5,8 @@ class HashTable {
         for (let i = 0; i < this.buckets.length; i++) {
             this.buckets[i] = new Map();
         }
+        console.log(this.buckets);
+        
     }
 
     insert(key, value) {
@@ -27,9 +29,10 @@ class HashTable {
 }
 
 const hash = (key, size) => {
+    let sKey = key.toString();    
     let hashedKey = 0
-    for (let i = 0; i < key.length; i++) {
-        hashedKey += key.charCodeAt(i)
+    for (let i = 0; i < sKey.length; i++) {
+        hashedKey += sKey.charCodeAt(i)
     }
     return hashedKey % size
 }
@@ -52,3 +55,8 @@ hashTable.search('serena')
 
 console.log(hashTable);
 console.log(hashTable.search('rei'));
+
+// hashTable.insert(10, "hello")
+// hashTable.insert(11, "hello")
+// hashTable.insert(1050, "hello")
+// console.log(hashTable);

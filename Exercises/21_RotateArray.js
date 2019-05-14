@@ -43,7 +43,7 @@ function rotateIP(array, k) {
     for(let i = 0; i < k; i++){
         for(let j = array.length - 1; j > 0; j--){
             let temp = array[j]; // first index
-            array[j] = array[j-1];
+            array[j] = array[j-1]; // index before
             array[j-1] = temp;            
         }
     }

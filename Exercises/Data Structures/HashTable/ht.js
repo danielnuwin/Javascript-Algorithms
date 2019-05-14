@@ -56,5 +56,5 @@ const hashTable = new HashTable();
   hashTable.remove('darien')
   hashTable.remove('mina')
 
-  // console.log(hashTable);
+  console.log(hashTable);
 
