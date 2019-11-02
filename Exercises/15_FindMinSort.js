@@ -8,11 +8,11 @@ let array13 = [3, 6, 4, 7, 8, 2, 11, 1, 5];
 //1. find min in array, 2. delete that from array 3. add to result array
 function findMin(array) {
     let min = null;
-    console.log("findminarray",array);
+    // console.log("findminarray",array);
 
     for (let i = 0; i < array.length; i++) {
         let cur = array[i];
-        console.log("ccurrr",cur);
+        // console.log("ccurrr",cur);
         
         if (min === null) {
             min = cur;
@@ -31,7 +31,7 @@ function sort(array) {
     while (array.length > 0) {
         
         min = findMin(array);
-        console.log("min:", min);
+        // console.log("min:", min);
 
         // min = Math.min(...array); //works as well
         result.push(min);

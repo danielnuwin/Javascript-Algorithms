@@ -36,7 +36,7 @@ function pairsDivisible(array, k) {
             let pairCheck = (first+sec) % k;            
             // return pairCheck === 0 ? true : contine; 
             if(pairCheck === 0){
-                console.log(first, sec);
+                // console.log(first, sec);
                 return true;
             }
         }

@@ -78,7 +78,7 @@ class Node {
     constructor(val, prev, next) {
         this.value = val;
         this.prev = prev || null;
-        this.next = next || next;
+        this.next = next || null;
     }
 }
 

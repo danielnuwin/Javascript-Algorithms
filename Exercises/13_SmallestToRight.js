@@ -1,4 +1,4 @@
-//Find How many smaller numbers to the right
+//Find How many smaller numbers to the right of each number
 let array = [3, 6, 2, 7, 3, 9, 3, 1];
 
 /**

@@ -1,29 +1,22 @@
-// *  example: let x = [8,3,8,4,9,2,8,9,8,5] and expected output 8(4 times)
+/**
+ * A left rotation operation on an array shifts each of the array's elements  unit to the left. For example, 
+ * if  left rotations are performed on array , then the array would become .
 
-function freq(array){
-    let hm = {};
+Given an array  of  integers and a number, , perform  left rotations on the array.
+ Return the updated array to be printed as a single line of space-separated integers.
 
-    for(let i = 0; i < array.length; i++){
-        if(!hm[array[i]]){
-            hm[array[i]] = 1;
-        }
-        else{
-            hm[array[i]] = hm[array[i]] + 1;
+ Notes:
+
+ */
+
+const array = [1, 2, 3, 4, 5];
+
+function rotateLeft(array, k) {
+
+    for (let i = 0; i <= k; i++) {
+        for (let j = 0; j < array.length; j++) {
+            //swap one position
+            
         }
     }
-    let high = 0;
-    let highnum = null;
-    for(let i in hm){
-        if(high === 0 && highnum === null){
-            high = hm[i];
-            highnum = i;
-        }
-        if(hm[i] > high){
-            high = hm[i];
-            highnum = i;
-        }
-    }
-    console.log(high, parseInt(highnum));
-        
 }
-freq([8,3,8,4,9,2,8,9,8,5]);

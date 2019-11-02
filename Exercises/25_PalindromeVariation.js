@@ -61,3 +61,30 @@ let string = "racecarannakayakabc";
 
  console.log(splitPalindrome("abc"));
  console.log(splitPalindrome(string));
+
+ function PalindromeVariation(string) {
+    const result = [];
+    for (let i = 0; i < string.length; i++) {
+        let curChar = string.charAt(i);
+        for (let j = i + 1; j < string.length; j++) {
+            let nextChar = string.charAt(j);
+
+            if (curChar === nextChar) {
+                let substring = string.substring(i, j + 1);
+                // console.log("SS:", substring);
+                if (substring.length > 3 && substring === substring.split("").reverse().join("")) {
+                    result.push(substring);
+                }
+            }
+        }
+    }
+    if (result.length === 0) {
+        console.log("24)",string.split(""));
+    }
+    else {
+        console.log("24)", result);
+    }
+}
+
+PalindromeVariation(twoFour);
+PalindromeVariation("abcdefg");

@@ -45,3 +45,8 @@ function thirdLarge(array) {
 console.log(thirdLarge(array)); //8
 console.log(thirdLarge([4, 30, 2])); //1
 console.log(thirdLarge([4, 30])); //null
+
+function thirdBiggest(array){
+    let sort = array.sort((a,b) => b - a);
+    console.log(sort[2]);
+}

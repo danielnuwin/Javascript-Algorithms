@@ -1,70 +1,31 @@
 //Find the count of maximum numbers
-let x = [1, 2, 2, 4, 2, 4]
+let nineteen = [1, 2, 2, 4, 2, 4]; //2
+let nineteen_2 = [1, 2, 2, 4, 2, 4, 4, 4, 4]//4
 
 /**
- * should return 2
- * find the max, then count how many times it occurs. Need two loops. 
- * is it sorted? 
- * 1. Sort it. Loop backwards until the next does not equal current. 
- * 2. Function to find Max, then Function to loop and count occurences of max
- * 3. Use Hasmap to count all values. then return the max. 
+ * Thoughts:
+ * 2. HM of all the num counts also checking the max count too then index return max value.
  */
-
- //2
-function countMax2(array) {
-    let maxCount = 0;
-    let max = null;
-    //find max
-    for (let i = 0; i < array.length; i++) {
-        let cur = array[i];
-        if (max === null) {
-            max = cur;
-        }
-        if (cur > max) {
-            max = cur;
-        }
-    }
-
-    for(let i = 0; i < array.length; i++){
-        let cur = array[i];
-        if(cur === max){
-            maxCount++
-        }
-    }
-
-    return maxCount;
-}
-
-console.log("countMax:", countMax2(x));
-
-function countMax3(array){
+function MaxCount(array) {
     let hm = {};
-    let countMax = 0;
-    let maxNum = null;
-
-    for(let i = 0; i < array.length; i++){
-        let cur = array[i];
-        
-        //Track Max Num
-        if(maxNum === null){
-            maxNum = cur;
+    let maxCount = 1;
+    for (let i = 0; i < array.length; i++) {
+        if (!hm[array[i]]) {
+            hm[array[i]] = 1;
+            maxCount = 1;
         }
-        if(cur > maxNum){
-            maxNum = cur;
-        }
-
-        //Track Count
-        if(!hm[cur]){
-            hm[cur] = 1;
-        }
-        else{
-            hm[cur] = hm[cur] + 1; 
+        else {
+            hm[array[i]] = hm[array[i]] + 1;
+            if (hm[array[i]] > maxCount) {
+                maxCount = hm[array[i]];
+            }
         }
     }
-
-    //Get Max Count by using maxNum as key in HM
-    countMax = hm[maxNum];
-    return countMax; 
+    for (let obj in hm) {
+        if (hm[obj] === maxCount) {
+            console.log("19)", obj);
+        }
+    }
 }
-
-console.log("countMax3:", countMax3(x));
+MaxCount(nineteen);
+MaxCount(nineteen_2);

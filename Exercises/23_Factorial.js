@@ -10,9 +10,9 @@
         return 1; 
     }
     else {
-        return n * (n-1);
+        return n * fact(n-1);
     }
  }
 
- console.log(fact(2));
+ console.log(fact(10));
  

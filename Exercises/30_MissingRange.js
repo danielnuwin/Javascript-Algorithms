@@ -21,7 +21,7 @@ function missingRange(array, low, high){
 
     let result = "";
 
-    for(let i = low; i <= high; i++){
+    for(let i = low; i < high; i++){
         
         if(array.indexOf(i) === -1){
             result = result + i + ", "; 

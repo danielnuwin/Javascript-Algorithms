@@ -63,3 +63,24 @@ console.log("1)", findPairs([3, 4, 7, 1, 2, 9, 8]));
 console.log("2)",findPairs([3, 4, 7, 1, 12, 9]));
 console.log("3)",findPairs([65, 30, 7, 90, 1, 9, 8]));
 console.log("4)",findPairs([1,3,4,0]));
+
+function findPairs(array) {
+    let hm = {};
+    let result = [];
+
+    for (let i = 0; i < array.length; i++) {
+        let first = array[i];
+        for (let j = i + 1; j < array.length; j++) {
+            let second = array[j];
+            let sum = first + second;
+            if (!hm[sum]) {
+                hm[sum] = [first, second];
+            }
+            else if(hm[sum]){
+                result.push([[first, second], hm[sum]]);
+            }
+        }
+    }
+    return result;
+}
+console.log("27)", findPairs([3, 4, 7, 1, 2, 9, 8]));
