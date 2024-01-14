@@ -16,6 +16,7 @@ function twoSum(array, target) {
 
     for (let index = 0; index < array.length; index++) {
         let comp = target - array[index];
+        //If Key doesnt exsist in hm then add it
         if (!hm[array[index]]) {
             hm[array[index]] = array[index];
         }
@@ -45,4 +46,4 @@ function twoSumIndex(array, target){
     return result;
 }
 
-console.log(twoSumIndex(array, target));
+console.log("TwoSumIndex", twoSumIndex(array, target));
